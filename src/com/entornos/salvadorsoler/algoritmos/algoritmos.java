@@ -43,4 +43,19 @@ public abstract class algoritmos {
 		
 		return result; 
 	}
+	
+	public boolean primo(int numero){
+	    if(numero<2){
+	        throw new IllegalArgumentException("Tiene que ser 2 o más");
+	    }
+
+	    for(int i=2;i<numero;i++){
+	        if(numero % i==0){
+	            return false;
+	        }
+	    }
+
+	    return true;
+	}
+
 }
