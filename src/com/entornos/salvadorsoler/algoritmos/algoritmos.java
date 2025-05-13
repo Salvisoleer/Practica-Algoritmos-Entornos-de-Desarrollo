@@ -41,6 +41,6 @@ public abstract class algoritmos {
 			result = result*i;
 		}
 		
-		return result;
+		return result; 
 	}
 }
