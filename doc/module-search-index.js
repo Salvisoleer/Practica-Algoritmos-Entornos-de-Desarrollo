@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"com.entornos.salvadorsoler.algoritmos"}];updateSearchResults();

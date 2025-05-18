@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.entornos.salvadorsoler.algoritmos","l":"com.entornos.salvadorsoler.algoritmos"}];updateSearchResults();

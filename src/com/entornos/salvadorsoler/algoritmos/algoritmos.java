@@ -1,6 +1,13 @@
 package com.entornos.salvadorsoler.algoritmos;
 
 public abstract class algoritmos {
+	/**
+	 * Calcula el numero de Fibonacci de una posicion
+	 * 
+	 * @param numero numero entero (debe ser 0 o mayor)
+	 * @return el numero de Fibonacci 
+	 * @throws IllegalArgumentException si el numero es negativo
+	 */
 	public int fibonacci(int numero){
 	    if(numero<0){
 	        throw new IllegalArgumentException("no puede ser negativo");
@@ -23,6 +30,13 @@ public abstract class algoritmos {
 	    return c;
 	}
 	
+	/**
+	 * Calcula el factorial de un numero.
+	 * 
+	 * @param numero numero entero (debe ser 0 o mayor)
+	 * @return el factorial del numero
+	 * @throws IllegalArgumentException si el numero es negativo
+	 */
 	
 	public int factorial(int numero){
 	    if(numero<0){
@@ -36,6 +50,15 @@ public abstract class algoritmos {
 
 	    return resultado;
 	}
+	
+	
+	/**
+	 * Comprueba si un numero es primo.
+	 * 
+	 * @param numero numero entero (debe ser 2 o mayor)
+	 * @return true si el numero es primo, false si no
+	 * @throws IllegalArgumentException si el numero es menor que 2
+	 */
 	
 	public boolean primo(int numero){
 	    if(numero<2){
